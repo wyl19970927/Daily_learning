@@ -1,6 +1,6 @@
 """"""
 """自定义异常用raise抛出异常"""
-"""Exception函数可以被用来触发，或者定义一个子类集成Exception"""
+"""Exception函数可以被用来触发，或者定义一个子类继承Exception"""
 try:
     for i in range(5):
         if i > 2:
